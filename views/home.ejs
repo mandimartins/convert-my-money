@@ -1,0 +1,33 @@
+<%- include('header') %>
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card box-shadow my-5">
+          <div class="card-header h5 lead text-center font-weight-normal">
+            Insira a cotação e quantidade
+          </div>
+          <div class="card-body">
+            <form method="GET" action="/cotacao">
+              <div class="form-group">
+                <input
+                  name="cotacao"
+                  class="form-control my-2"
+                  placeholder="Cotação dolar"
+                  value="<%= cotacao %>"
+                />
+                <input
+                  name="quantidade"
+                  class="form-control my-2"
+                  placeholder="Quantidade de dolares"
+                />
+              </div>
+              <button class="btn btn-success btn-block">Convert</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<%- include('footer') %>
