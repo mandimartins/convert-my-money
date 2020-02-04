@@ -10,6 +10,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 const port = process.env.PORT || 3000;
 
+const cotacaoRouter = require('./routes/cotacao');
+
+app.use(cotacaoRouter);
+
 app.listen(port, error => {
   if (error) {
     console.log('Failed to start the server', error);
