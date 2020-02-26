@@ -1,87 +1,53 @@
 # Convert My Money
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Projeto desenvolvido no trinamento [Fullstack Master](https://devpleno.com/)
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+É necessário ter o node instalado na sua maquina [Nodejs](https://nodejs.org/en/)
 
-```
-Give examples
+## Getting Started
+
+Obtenha uma cópia do projeto com o seguinte comando
+
+```bash
+  git clone https://github.com/mandimartins/convert-my-money.git
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Dentro do diretório do projeto rode o comando a seguir no terminal
 
-Say what the step will be
-
-```
-Give the example
+```bash
+  npm install
 ```
 
-And repeat
+### Start the server
 
-```
-until finished
-```
+Depois dos passos acima inicie o servidor
 
-End with an example of getting some data out of the system or using it for a little demo
+```bash
+  npm start
+```
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Para rodar os testes digite o comando abaixo no terminal
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+```bash
+  npm test
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-- [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-- [Maven](https://maven.apache.org/) - Dependency Management
-- [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+- [Nodejs](https://nodejs.org/en/) - JavaScript runtime
 
-## Contributing
+- [Express](https://expressjs.com/pt-br/) - The web framework used
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+- [Ejs](https://ejs.co/) - Embedded JavaScript templating
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+- [Bootstrap](https://getbootstrap.com/) - Frontend library used
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
